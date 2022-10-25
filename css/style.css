@@ -1,0 +1,614 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: sans-serif;
+  position: relative; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.5;
+  text-align: justify;
+  text-align: center; }
+
+/*Inicio header*/
+.header {
+  border: red solid 1px;
+  background-color: lightslategray;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px;
+  margin: 0 auto; }
+
+.nav-link {
+  color: white;
+  text-decoration: none; }
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 80px; }
+
+.tecno {
+  font-size: 1.8rem;
+  color: black; 
+  font-family: 'Ubuntu', sans-serif;}
+
+.rojo {
+  font-size: 1.8rem;
+  color: red; 
+  font-family: 'Ubuntu', sans-serif;}
+
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none; }
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content; }
+
+.nav-menu-link {
+  padding: 8px 12px;
+  border-radius: 3px; }
+
+.nav-menu-link:hover {
+  background-color: red;
+  transition: 0.5s; }
+
+.nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+  display: none; }
+/*Fin header*/
+
+/*Contenido main de los html*/
+
+/*Index.html*/
+.section1 {
+  width: 100%;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.imagen1 {
+  background-image: url(./multimedia/tecnorojohorarios.png);
+  background-position: center;
+  width: 75%;
+  border: white 1px solid;
+  z-index: -1; }
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.cverde {
+  width: 270px;
+  height: 265px;
+  opacity: .4;
+  border: 2px double black;
+  z-index: -1; }
+
+.sverde {
+  width: 270px;
+  height: 265px;
+  opacity: .4;
+  border: 2px double black;
+  z-index: -1; }
+
+.accesorios {
+  width: 270px;
+  height: 265px;
+  opacity: .4;
+  border: 2px double black;
+  z-index: -1; }
+
+.pc {
+  width: 270px;
+  height: 265px;
+  opacity: .4;
+  border: 2px double black;
+  z-index: -1; }
+
+.cverde:hover {
+  opacity: 1;
+  border: red solid 2px; }
+
+.sverde:hover {
+  opacity: 1;
+  border: red solid 2px; }
+
+.accesorios:hover {
+  opacity: 1;
+  border: red solid 2px; }
+
+.pc:hover {
+  opacity: 1;
+  border: red solid 2px; }
+
+.videos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.video1 {
+  width: auto;
+  height: 650px;
+  opacity: .4;
+  border: 2px double black;
+  z-index: -1; }
+
+.video2 {
+  width: auto;
+  height: 650px;
+  opacity: .4;
+  border: 2px double black;
+  z-index: -1; }
+
+.video1:hover {
+  opacity: 1;
+  border: 2px double red; }
+
+.video2:hover {
+  opacity: 1;
+  border: 2px double red; }
+
+.redes1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+
+/*Productos.html*/
+.section2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.iphone14 {
+  width: 100%; }
+
+.allcarrusel{
+  z-index: -100; }
+
+.Apple {
+  padding: 200px 500px; 
+  z-index: -100; }
+
+.Samsung {
+  padding: 200px 550px;
+  z-index: -100; }
+
+.Motorola {
+  padding: 200px 550px;
+  z-index: -100; }
+
+.Xiaomi {
+  padding: 200px 500px;
+  z-index: -100; }
+
+/*Nosotros.html*/
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding-top: 150px; }
+
+.imagen5 {
+  border: black 1px solid;
+  z-index: -1; }
+
+.nosotrosmain {
+  padding-top: 100px;
+  padding-right: 25%;
+  padding-bottom: 100px;
+  padding-left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.nosotros1 {
+  font-size: x-large;
+  display: flex;
+  text-align: center;
+  text-align: justify; }
+
+
+/*Servicios.html*/
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.imagen3 {
+  background-image: url(./multimedia/Reparación-de-dispositivos.jpg);
+  width: 100%;
+  border: black 1px solid;
+  z-index: -1; }
+
+.section5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 30% 10% 30%;
+  font-size: xx-large; }
+
+
+/*Contacto.html*/
+
+.section6 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.imagen4 {
+  background-image: url(./multimedia/Contacto1.jpg);
+  height: 800px;
+  width: 100%;
+  border: black 1px solid;
+  z-index: -1; }
+
+.contactologo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover; }
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  padding: 75px 250px; }
+
+.postcompra {
+  padding: 75px 350px; }
+  
+.imagen5 {
+  border: black 1px solid;
+  z-index: -1; }
+
+.table1 {
+  justify-content: center;
+  font-size: large;
+  margin: 10% 30% 10% 30%; }
+
+
+/*Fin del contenido main de los html*/
+
+/*Inicio Footer*/
+footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 8%;
+  background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.footerlogo {
+  font-size: xx-large;
+  font-family: 'Ubuntu', sans-serif; }
+
+.social-icons-container, .footer-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem; }
+
+.social-icon {
+  height: 50px;
+  width: 50px;
+  background-image: url(./multimedia/facebook1.png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin: 1rem; }
+
+.social-icon:hover {
+  background-color: #121212;
+  filter: invert(1); }
+
+.social-icon:nth-of-type(2) {
+  background-image: url(./multimedia/instagram1.png); }
+
+.social-icon:nth-of-type(3) {
+  background-image: url(./multimedia/linkedin1.png); }
+
+.footer-menu-container {
+  list-style-type: none;
+  color: #f2f2f2;
+  font-size: 18px; }
+
+.menu-item {
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6; }
+
+.menu-item:hover {
+  opacity: 1; }
+
+.copyright {
+  color: #f2f2f2;
+  opacity: 0.3;
+  text-align: center; }
+/*Fin Footer*/
+
+/*Inicio @medias para los 5html*/
+@media (max-width: 768px) {
+  body {
+    padding: 70px 0px 0;
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr 2fr 2fr 2fr;
+    gap: 10px;
+    grid-template-areas: "header"
+ "section1"
+ "categories"
+ "videos"
+ "mediosdepago"
+ "footer"; }
+  h1, h2, h3, h4, h5, h6, p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    text-align: center; }
+  .header {
+    height: 60px; }
+  .logo {
+    font-size: 25px;
+    padding: 0 20px;
+    line-height: 60px; }
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #2c3e50;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s; }
+  .nav-menu-item {
+    line-height: 70px; }
+  .nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px; }
+  .nav-menu-link:hover {
+    background: none;
+    color: #83c5f7; }
+  .nav-toggle {
+    display: block; }
+  .nav-menu_visible {
+    left: 0; }
+  .nav-toggle:focus:not(:focus-visible) {
+    outline: none; }
+  .section1 {
+    width: 100%; }
+  .imagen1 {
+    width: 100%; }
+  .video1 {
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    border: none; }
+  .video2 {
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    border: none; }
+  .video1:hover {
+    border: none; }
+  .video2:hover {
+    border: none; }
+  footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+  .footerlogo {
+    font-size: xx-large;
+    font-family: 'Ubuntu', sans-serif; }
+  .social-icons-container, .footer-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem; }
+  .social-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url(./multimedia/facebook1.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem; }
+  .social-icon:hover {
+    background-color: #121212;
+    filter: invert(1); }
+  .social-icon:nth-of-type(2) {
+    background-image: url(./multimedia/instagram1.png); }
+  .social-icon:nth-of-type(3) {
+    background-image: url(./multimedia/linkedin1.png); }
+  .footer-menu-container {
+    list-style-type: none;
+    color: #f2f2f2;
+    font-size: 18px; }
+  .menu-item {
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6; }
+  .menu-item:hover {
+    opacity: 1; }
+  .copyright {
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center; } }
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 70px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr 2fr;
+    gap: 10px;
+    grid-template-areas: "header"
+ "section2"
+ "divtable"
+ "footer"; }
+  .section2 {
+    width: 100%; }
+  .iphone14 {
+    width: 100%; }
+  .Apple {
+    padding: 50px 80px; }
+  .Samsung {
+    padding: 50px 80px; }
+  .Motorola {
+    padding: 50px 80px; }
+  .Xiaomi {
+    padding: 50px 80px; }
+  table {
+    font-size: xx-small;
+    border: 1; } }
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 70px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr 2fr;
+    gap: 10px;
+    grid-template-areas: "header"
+ "section3"
+ "nosotrosmain"
+ "footer"; }
+  .nosotrosmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 15px; }
+  .nosotros1 {
+    font-size: larger;
+    text-align: left; } }
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 70px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr 2fr;
+    gap: 10px;
+    grid-template-areas: 
+    "header"
+    "section4"
+    "section5"
+    "footer"; }
+
+  .section4 {
+    padding-top: 0; }
+
+  .section5 {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    margin: 25% 10%;
+    font-size: 1.5rem; }
+
+  ol {
+    font-size: 1.3rem; } }
+
+    @media (max-width: 768px){
+      body {
+        padding: 0px;
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr 3fr 1fr 2fr;
+        gap: 10px;
+        grid-template-areas: 
+        "header" 
+        "section6" 
+        "contactologo" 
+        "contacto" 
+        "postcompra" 
+        "footer";
+      }
+      .header{
+        max-width: 768px;
+        max-height: 60px;
+      }
+      .section6{
+        max-width: 768px;
+        max-height: 450px;
+        padding-bottom: 100px;
+      }
+      .imagen4{
+        max-width: 768px;
+        max-height: 450px;
+      }
+      .contactologo{
+        display: flex;
+        text-align: center;
+        justify-content: left;
+        padding: 50px 75px;
+      }
+      .contacto{
+        display: flex;
+        text-align: center;
+        justify-content: left;
+        padding: 50px 60px;
+      }
+      .formulario{
+        display: table-column;
+        text-align: left;
+        justify-content: left;
+      }
+      .postcompra{
+        padding: 50px 50px;
+        font-size: x-small;
+      }
+    }
+/*Fin @medias*/

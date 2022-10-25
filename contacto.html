@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de contacto de Tecnorojo para dejar tus consultas, dudas o problemas con uno de tus equipos o, productos adquiridos.">
+    <meta name="keywords" content="Tecnorojo, Tecnorojo Varela, Tecnorojo Adrogue, Mail de contacto, Consultas, Problemas con tu equipo">
+    <link rel="icon" href="./multimedia/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://kit.fontawesome.com/be867caaf7.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+    <title>Contacto | Tecnorojo</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo nav-link wow animate__animated animate__bounceInDown">
+                <span class="tecno">Tecno</span><span class="rojo">rojo</span>
+            </a>
+            <button class="nav-toggle">
+                <i class="fa-solid fa-bars"></i> 
+            </button>
+            <ul class="nav-menu nav-menu_visible">
+                <li class="nav-menu-item">
+                    <a href="./index.html" class="nav-menu-link nav-link">Inicio</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./productos.html" class="nav-menu-link nav-link">Productos</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./nosotros.html" class="nav-menu-link nav-link">Nosotros</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./servicios.html" class="nav-menu-link nav-link">Servicios</a>
+                </li> 
+                <li class="nav-menu-item">
+                    <a href="./contacto.html" class="nav-menu-link nav-link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Fin del Header-->
+
+    <!--Main-->
+    <main>
+        <section class="section6">
+        <img class="imagen4" src="./multimedia/Contacto1.jpg" alt="Medios de contacto">
+        </section>
+        <div class="contactologo">
+            <img src="./multimedia/android-chrome-192x192.png" alt="logo">
+        </div>
+        <section class="contacto">
+            <form class="formulario" action="">
+                    <div>
+                        <label for="nombre">Nombre*</label>
+                        <br>
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="apellido">Apellido*</label>
+                        <br>
+                        <input type="text" name="apellido" placeholder="Apellido" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="mail">mail*</label>
+                        <br>
+                        <input type="email" name="email" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="coment">Consulta</label>
+                        <br>
+                        <textarea name="coment" id="" maxlength="1000" cols="30" rows="10"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </div>
+            </form>
+        </section>
+        <div class="postcompra">
+            <h3>Consulta Post Compra</h3>
+            <p>Para realizar una consulta sobre una compra efectuada en nuestro sitio web, solicitamos indicar ID de venta, estos se encuentran en el mail de confirmación de compra que ha recibido.</p>
+        </div>
+    </main>
+    <!--Fin del Main-->
+
+    <!--Footer-->
+    <footer>
+        <a href="#" class="logo nav-link wow animate__animated animate__bounceInDown">
+            <span class="tecno">Tecno</span><span class="rojo">rojo</span>
+        </a>
+        <div class="social-icons-container">
+            <a href="https://www.facebook.com/profile.php?id=100063542350146" class="social-icon"><img width="48px" height="48px" src="./multimedia/facebook1.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/tecnorojo/" class="social-icon"><img width="48px" height="48px" src="./multimedia/instagram1.png" alt="Instagram"></a>
+            <a href="https://linktr.ee/Tecnorojo" class="social-icon"><img width="48px" height="48px" src="./multimedia/linktr2.png" alt="Linktr"></a>
+        </div>
+        <ul class="footer-menu-container">
+            <li class="menu-item">Legal</li>
+            <li class="menu-item">Cookies</li>
+            <li class="menu-item">Privacidad</li>
+            <li class="menu-item">Envios</li>
+            <li class="menu-item">Reembolsos</li>
+        </ul>
+        <span class="copyright">&copy;2022, Máximo Felipe Resi. Todos los derechos reservados.</span>
+    </footer>
+    <!--Fin del Footer-->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

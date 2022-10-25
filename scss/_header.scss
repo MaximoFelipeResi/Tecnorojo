@@ -1,0 +1,66 @@
+.header{
+    border: red solid 1px;
+    background-color: lightslategray;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        
+        max-width: 992px;
+        margin: 0 auto;
+            .nav-link{
+                color: white;
+                text-decoration: none;
+            }
+            .logo{
+                font-size: 30px;
+                font-weight: bold;
+                padding: 0 40px;
+                line-height: 80px;
+            }
+                .tecno{
+                    color: black;
+                    font: $title-font;
+                }
+                .rojo{
+                    color: red;
+                    font: $title-font;
+                }
+            .nav-toggle{
+                color: white;
+                background: none;
+                border: none;
+                font-size: 30px;
+                padding: 0 20px;
+                line-height: 60px;
+                cursor: pointer;
+            
+                display: none;
+            }
+            .nav-menu{
+            display: flex;
+            margin-right: 40px;                
+            list-style: none;
+                .nav-menu-item{
+                    font-size: 18px;
+                    margin: 0 10px;
+                    line-height: 80px;
+                    text-transform: uppercase;
+                    width: max-content;
+                        .nav-menu-link{
+                            padding: 8px 12px;
+                            border-radius: 3px;
+                            &:hover{
+                                background-color: red;
+                                transition: 0.5s;
+                            }
+                        }
+                }
+            }               
+    }                                       
+}

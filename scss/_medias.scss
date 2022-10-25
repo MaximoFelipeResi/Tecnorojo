@@ -1,0 +1,265 @@
+@media (max-width: 768px) {
+    body {
+      padding: 70px 0px 0;
+      display: grid;
+      grid-template-rows: 1fr 3fr 3fr 2fr 2fr 2fr;
+      gap: 10px;
+      grid-template-areas: "header" "section1" "categories" "videos" "mediosdepago" "footer";
+    }
+    h1, h2, h3, h4, h5, h6, p {
+      font-size: 20px;
+      line-height: 1.5;
+      text-align: justify;
+      text-align: center;
+    }
+    .header {
+      height: 60px;
+    }
+    .logo {
+      font-size: 25px;
+      padding: 0 20px;
+      line-height: 60px;
+    }
+    .nav-menu {
+      flex-direction: column;
+      align-items: center;
+      margin-right: 20px;
+      background-color: #2c3e50;
+      position: fixed;
+      left: 0;
+      top: 60px;
+      width: 100%;
+      padding: 20px 0;
+      height: calc(100% - 60px);
+      overflow-y: auto;
+      left: 100%;
+      transition: left 0.3s;
+    }
+    .nav-menu-item {
+      line-height: 70px;
+    }
+    .nav-menu-link {
+      padding: 8px 12px;
+      border-radius: 3px;
+    }
+    .nav-menu-link:hover {
+      background: none;
+      color: #83c5f7;
+    }
+    .nav-toggle {
+      display: block;
+    }
+    .nav-menu_visible {
+      left: 0;
+    }
+    .nav-toggle:focus:not(:focus-visible) {
+      outline: none;
+    }
+    .section1 {
+      width: 100%;
+    }
+    .imagen1 {
+      width: 100%;
+    }
+    .video1 {
+      width: 300px;
+      height: 450px;
+      padding: 10px;
+      border: none;
+    }
+    .video2 {
+      width: 300px;
+      height: 450px;
+      padding: 10px;
+      border: none;
+    }
+    .video1:hover {
+      border: none;
+    }
+    .video2:hover {
+      border: none;
+    }
+    footer {
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      background-color: lightslategray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .footerlogo {
+      font-size: xx-large;
+      font-family: "Ubuntu", sans-serif;
+    }
+    .social-icons-container, .footer-menu-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+    .social-icon {
+      height: 50px;
+      width: 50px;
+      background-image: url(./multimedia/facebook1.png);
+      background-position: center;
+      background-size: 40%;
+      background-repeat: no-repeat;
+      margin: 1rem;
+    }
+    .social-icon:hover {
+      background-color: #121212;
+      filter: invert(1);
+    }
+    .social-icon:nth-of-type(2) {
+      background-image: url(./multimedia/instagram1.png);
+    }
+    .social-icon:nth-of-type(3) {
+      background-image: url(./multimedia/linkedin1.png);
+    }
+    .footer-menu-container {
+      list-style-type: none;
+      color: #f2f2f2;
+      font-size: 18px;
+    }
+    .menu-item {
+      margin: 1rem 1.5rem;
+      cursor: pointer;
+      opacity: 0.6;
+    }
+    .menu-item:hover {
+      opacity: 1;
+    }
+    .copyright {
+      color: #f2f2f2;
+      opacity: 0.3;
+      text-align: center;
+    }
+  }
+  @media (max-width: 768px) {
+    body {
+      padding-top: 70px;
+      display: grid;
+      grid-template-rows: 1fr 2fr 3fr 2fr;
+      gap: 10px;
+      grid-template-areas: "header" "section2" "divtable" "footer";
+    }
+    .section2 {
+      width: 100%;
+    }
+    .iphone14 {
+      width: 100%;
+    }
+    .Apple {
+      padding: 50px 80px;
+    }
+    .Samsung {
+      padding: 50px 80px;
+    }
+    .Motorola {
+      padding: 50px 80px;
+    }
+    .Xiaomi {
+      padding: 50px 80px;
+    }
+    table {
+      font-size: xx-small;
+      border: 1;
+    }
+  }
+  @media (max-width: 768px) {
+    body {
+      padding-top: 70px;
+      display: grid;
+      grid-template-rows: 1fr 2fr 3fr 2fr;
+      gap: 10px;
+      grid-template-areas: "header" "section3" "nosotrosmain" "footer";
+    }
+    .nosotrosmain {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 80px 15px;
+    }
+    .nosotros1 {
+      font-size: larger;
+      text-align: left;
+    }
+  }
+  @media (max-width: 768px) {
+    body {
+      padding-top: 70px;
+      display: grid;
+      grid-template-rows: 1fr 2fr 3fr 2fr;
+      gap: 10px;
+      grid-template-areas: 
+      "header"
+      "section4"
+      "section5"
+      "footer"; }
+  
+    .section4 {
+      padding-top: 0; }
+  
+    .section5 {
+      display: flex;
+      text-align: left;
+      justify-content: center;
+      margin: 25% 10%;
+      font-size: 1.5rem; }
+  
+    ol {
+      font-size: 1.3rem; } }
+  
+      @media (max-width: 768px){
+        body {
+          padding: 0px;
+          display: grid;
+          grid-template-rows: 1fr 2fr 1fr 3fr 1fr 2fr;
+          gap: 10px;
+          grid-template-areas: 
+          "header" 
+          "section6" 
+          "contactologo" 
+          "contacto" 
+          "postcompra" 
+          "footer";
+        }
+        .header{
+          max-width: 768px;
+          max-height: 60px;
+        }
+        .section6{
+          max-width: 768px;
+          max-height: 450px;
+          padding-bottom: 100px;
+        }
+        .imagen4{
+          max-width: 768px;
+          max-height: 450px;
+        }
+        .contactologo{
+          display: flex;
+          text-align: center;
+          justify-content: left;
+          padding: 50px 75px;
+        }
+        .contacto{
+          display: flex;
+          text-align: center;
+          justify-content: left;
+          padding: 50px 60px;
+        }
+        .formulario{
+          display: table-column;
+          text-align: left;
+          justify-content: left;
+        }
+        .postcompra{
+          padding: 50px 50px;
+          font-size: x-small;
+        }
+      }

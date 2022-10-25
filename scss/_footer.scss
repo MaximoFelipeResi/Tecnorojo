@@ -1,0 +1,72 @@
+footer{
+    width: 100%; 
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .logo{
+        .tecno{
+            color: black;
+            font-size: xx-large;
+            font: $title-font;
+        }
+        .rojo{
+            color: red;
+            font-size: xx-large;
+            font: $title-font;
+        }
+    }
+    .social-icons-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+            .social-icon{
+                height: 50px;
+                width: 50px;
+                background-image: url(./multimedia/facebook1.png);
+                background-position: center;
+                background-size: 40%;
+                background-repeat: no-repeat;
+                margin: 1rem;
+                &:hover{
+                    background-color: #121212;
+                    filter: invert(1);
+                }
+                .social-icon:nth-of-type(2){
+                    background-image: url(./multimedia/instagram1.png);
+                }
+                .social-icon:nth-of-type(3){
+                    background-image: url(./multimedia/linkedin1.png);
+                }
+            }
+    }
+    .footer-menu-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        list-style-type: none;
+        color: #f2f2f2;
+        font-size: 18px;
+            .menu-item{
+                margin: 1rem 1.5rem;
+                cursor: pointer;
+                opacity: 0.6;
+                &:hover{
+                    opacity: 1;
+                }
+            }
+    }
+    .copyright{
+        color: #f2f2f2;
+        opacity: 0.3;
+        text-align: center;
+    }
+}
