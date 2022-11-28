@@ -1,6 +1,6 @@
 .header{
-    border: red solid 1px;
-    background-color: lightslategray;
+    box-shadow: 0 4px 5px #e5e5e5;
+    background-color: white;
     height: 80px;
     position: fixed;
     width: 100%;
@@ -53,6 +53,7 @@
                     text-transform: uppercase;
                     width: max-content;
                         .nav-menu-link{
+                            color: black;
                             padding: 8px 12px;
                             border-radius: 3px;
                             &:hover{

@@ -23,8 +23,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 /*Inicio header*/
 .header {
-  border: red solid 1px;
-  background-color: lightslategray;
+  box-shadow: 0 4px 5px #e5e5e5;
+  background-color: white;
   height: 80px;
   position: fixed;
   width: 100%;
@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: max-content; }
 
 .nav-menu-link {
+  color: black;
   padding: 8px 12px;
   border-radius: 3px; }
 
@@ -79,7 +80,7 @@ h1, h2, h3, h4, h5, h6, p {
   transition: 0.5s; }
 
 .nav-toggle {
-  color: white;
+  color: black;
   background: none;
   border: none;
   font-size: 30px;
